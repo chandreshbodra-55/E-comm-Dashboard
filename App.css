@@ -1,0 +1,184 @@
+/* Navigation Styling */
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: black;
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.search-product-box{
+  width:500px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}
+
+/* Logo Styling */
+.logo {
+  width: 50px;
+  float: left;
+  border-radius: 9%;
+  margin-top: 8px;
+  margin-left: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header Styling */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Footer Styling */
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+/* Form Styling */
+.register, .product, .login {
+  margin-left: 30%;
+  margin-top: 100px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.invalid-input {
+  color: red;
+  margin-top: -24px;
+  display: block;
+  margin-left: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.appButton {
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: lightblue;
+  opacity: 0.8;
+  border: 2px solid;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.signup {
+  margin-top: 10%;
+}
+.inputbox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+.btn-signup {
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: lightblue;
+  opacity: 0.8;
+  border: 2px solid;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Product List Styling */
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.product-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.product-list ul li {
+  display: inline-block;
+  padding: 9px;
+  border: 1px solid skyblue;
+  width: 150px;
+}
+
+/* Image Styling */
+.images {
+  display: inline-block;
+  padding: 9px;
+  margin: 5px;
+  border: 1px skyblue;
+  width: 30px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.images:hover {
+  transform: scale(1.1);
+}
